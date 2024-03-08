@@ -2,7 +2,7 @@
 name = "family-tree-cli"
 version = "0.1.0"
 description = ""
-authors = ["Siddhant Shaw <siddhantshaw97@fgmail.com>"]
+authors = ["Siddhant Shaw <siddhantshaw97@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
