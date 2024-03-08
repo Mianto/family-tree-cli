@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "family-tree-cli"
+version = "0.1.0"
+description = ""
+authors = ["Siddhant Shaw <siddhantshaw97@fgmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+family-tree = "family_tree_cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
