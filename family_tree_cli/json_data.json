@@ -1,0 +1,1 @@
+{"person": ["sunil", "siddhant", "shubhankar", "anita"], "relationships": ["wife", "son"], "person_to_relationship": {"siddhant": [["sunil", "son"]], "sunil": [["siddhant", "father"], ["anita", "husband"], ["shubhankar", "father"]], "anita": [["sunil", "wife"]], "shubhankar": [["sunil", "son"]]}}
