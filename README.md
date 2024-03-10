@@ -2,6 +2,15 @@ Family Tree CLI
 ---
 A CLI based application for the creating family tree
 
+## Install
+
+1. Create a python environment using 
+`python3 -m venv .env`
+2. Activate the environment using
+`source .env/bin/activate`
+3. Install the wheel after unzipping the files
+`pip3 install path/to/family-tree-cli/dist/family_tree_cli-0.1.0-py3-none-any.whl`
+
 ## Define a family tree:
 
 `family-tree add-person <name>`
